@@ -2,7 +2,7 @@
 
 For this assignment, you're going to fork this repository to your own Github account and clone that repository locally. Inside the repo you'll find a file in app/js called enhancedDate.js.
 
-1. You're going to write an "enhanced" date module, based on using the built-in Date object.
+1. Using the module pattern, you're going to write an "enhanced" date module, based on using the built-in Date object. 
 2. The api for this module will consist of the following API's:
   * __setDate__: Stores the passed-in date. Takes milliseconds after epoch or a date object. Do some type-checking to make sure you have a valid type. If no value is passed, default to now.
   * __getDate__: Returns either milliseconds after epoch by default or a date object if true is passed as an argument.
