@@ -2,7 +2,7 @@
 
 For this assignment, you're going to fork this repository to your own Github account and clone that repository locally. Inside the repo you'll find a file in app/js called enhancedDate.js.
 
-1. Using the module pattern, you're going to write an "enhanced" date module, based on using the built-in Date object. 
+1. Using the module pattern, you're going to write an "enhanced" date module, based on using the built-in Date object. For reference see the [Function, scope and closure slide deck](http://slides.com/kinakuta/deck-4?token=2BbCWC23#/38) or refer to the section of [lecture](http://uweoconnect.extn.washington.edu/p680x0yepj9/) starting at 2:35.
 2. The api for this module will consist of the following methods:
   * __setDate__: Stores the passed-in date. This function can take milliseconds after epoch or a Date object. Do some type-checking to make sure you have a valid type. If no value is passed, default your internally stored date to now.
   * __getDate__: Returns either milliseconds after epoch by default or a Date object if true is passed as an argument.
