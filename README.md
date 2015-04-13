@@ -15,10 +15,11 @@ For this assignment, you're going to fork this repository to your own Github acc
 5. The module should handle the case when an API method (other than setDate) is called before a date has been set. One approach to this is to check if a date has already been set, and if not, set a new date at that time. Only the setDate method should be able to change the internally stored date after it has been set once.
 6. You may wish to test your enhancedDate module by writing code that calls methods on the enhancedDate object it creates. For example:
 
-`var message = '';
-enhancedDate.setDate(new Date());
-message += 'Today is ' + enhancedDate.getDayName() + ' in the month of ' + enhancedDate.getMonthName;
-console.log(message);`
+`var message = '';`
+
+`enhancedDate.setDate(new Date());`
+`message += 'Today is ' + enhancedDate.getDayName() + ' in the month of ' + enhancedDate.getMonthName;`
+`console.log(message);`
 
 
 
