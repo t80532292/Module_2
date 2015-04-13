@@ -18,7 +18,9 @@ For this assignment, you're going to fork this repository to your own Github acc
 `var message = '';`
 
 `enhancedDate.setDate(new Date());`
+
 `message += 'Today is ' + enhancedDate.getDayName() + ' in the month of ' + enhancedDate.getMonthName;`
+
 `console.log(message);`
 
 
